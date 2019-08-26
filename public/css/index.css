@@ -1,0 +1,73 @@
+/*轮播的样式*/
+.carousel-control-prev,
+.carousel-control-next{
+    width:4%;height:20%;
+    top:40%;
+    background-color: rgba(107, 10, 10, 0.3);
+    border-radius: 4px;
+}
+.carousel-item img{
+    height:550px;
+}
+
+.my_index_11{
+    position: relative;
+    top:-190px;
+    left:15px;
+}
+
+.my_index_1{
+    color:#fff;
+    
+}
+.my_index_1 img{
+    transition: 2s;
+}
+.my_index_1 img:hover{
+    transform: scale(0.8);
+}
+
+.my_index_1 p{
+    border-bottom:1px solid #fff;
+}
+.my_index_1 span{
+    font-size:0.8rem;
+}
+.my_index_span{
+    text-decoration: line-through;
+}
+.my_index_2{
+    height:50px;
+    background-color: rgb(238, 234, 234);
+    position: relative;
+    top:-50px;
+    left:0px;
+}
+.my_index_2 div{
+    
+   font-size: 0.8rem;
+   width:200px;
+   height:19px;
+  position: absolute;
+   top:15px;
+   left:20px;
+}
+
+
+.my_index_2 div a{
+color:#000;
+text-decoration: none;
+border-right:1px solid rgb(192, 190, 190);
+padding:5px;
+
+}
+.my_index_2 div a:hover{
+    color:rgb(8, 133, 40);
+}
+.my_index_3  p {
+    font-size:0.7rem;
+}
+.my_index_3 a{
+    color:red;
+   
+}
